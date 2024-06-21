@@ -48,7 +48,7 @@ function addCommas(str) {
   return str.replace(/\s+/g, ', ');
 }
 
-let mapss = [ 'Haven', 'Split', 'Icebox', 'Breeze', 'Fracture', 'Sunset', 'Pearl'];
+let mapss = [ 'Haven', 'Icebox', 'Breeze', 'Fracture', 'Sunset', 'Pearl', 'Lotus'];
 let servers = ['Paris', 'London', 'Frankfurt'];
 let sides = ['Attack', 'Defence', 'Defense'];
 
@@ -162,8 +162,7 @@ fixtures.forEach(fixture => {
           await chat.sendMessage(`*It's time to Ban maps for ${fixture.teams[0]} vs ${fixture.teams[1]}*
 Maps available are the 7 listed below.
 
-Haven
-Split
+Haven 
 Icebox
 Fracture
 Sunset
